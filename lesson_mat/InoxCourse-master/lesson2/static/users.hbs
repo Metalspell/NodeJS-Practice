@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h1> Hello dear {{userName}} </h1>
+
+
+{{#if isMale}}
+    Hello MAN
+{{else}}
+    HELLO GIRL
+{{/if}}
+
+{{#each users}}
+    // this = users[i]
+    <h2>Name: {{this.name}}</h2>
+    <h2>Password: {{this.password}}</h2>
+    <hr>
+{{/each}}
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "InoxCourse",
+  "version": "1.0.0",
+  "author": {
+    "email": "viktor.kmin@inoxoft.com",
+    "name": "Viktor"
+  },
+  "engines": {
+    "node": "12.*.*"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  }
+}
